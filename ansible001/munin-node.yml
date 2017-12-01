@@ -1,6 +1,6 @@
 ---
 - name: Configuracion de apache
-  hosts: web
+  hosts: server001
   remote_user: root
   roles:
     - munin-node
